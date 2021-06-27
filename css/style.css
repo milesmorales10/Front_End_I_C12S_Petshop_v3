@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header .info-promotion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 20px;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+
+    padding: 0px 100px;
+
+    font-size: 1em;
+}
+
+header .info-promotion .options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .info-promotion .options p{
+    padding: 0px 25px;
+}
+
+header .navegation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60px;
+    background-color: rgba(240, 168, 62, 1);
+
+    padding: 0px 50px;
+}
+
+header .navegation nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+header .navegation-bar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header .navegation-bar ul li i {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Main */
+
+.banner {
+    background-image: url("../img/Banner.png");
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner .description {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+
+    text-align: center;
+    text-emphasis: none;
+}
+
+.banner .description * {
+    margin: 25px 0px;
+    color: rgba(60, 35, 19, 1);
+}
+
+.banner h2 {
+    width: 400px;
+    height: 50px;
+
+    font-size: 1.875em;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 5px;
+}
+
+.banner .description span {
+    display: block;
+
+    width: 150px;
+    height: 50px;
+
+    background-color: rgba(240, 168, 62, 1);
+    color: rgba(255, 255, 255);
+    border-radius: 5px;
+
+    margin: 0px auto;
+    line-height: 50px;
+}
+
+/* Products Slide */
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    color: rgba(60, 35, 19, 1);
+
+    padding: 25px 0px;
+}
+
+.products h2 {
+    font-size: 2.5em;
+}
+
+.products nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.products nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.products .products-slide {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.products .products-slide article {
+    text-align: center;
+    background-color: rgb(251, 250, 246);
+    padding-bottom: 20px;
+}
+
+.price {
+    color: rgba(240, 168, 62, 1);
+}
+
+.suscribe {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    height: 60px;
+
+    font-weight: 700;
+    font-size: 1.25em;
+
+    background-color: rgba(240, 168, 62, 1);
+    color: rgb(255, 255, 255);
+
+    padding: 0px 25px;
+}
+
+
+/* Contact */
+
+.shop-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 280px;
+
+    background-color: rgba(60, 35, 19, 1);
+    color: rgb(255, 255, 255);
+
+    padding: 0px 60px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.icons article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+article .content h4 {
+    font-size: 1.25em;
+}
+
+article .content p {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgba(34, 34, 34, 1);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
